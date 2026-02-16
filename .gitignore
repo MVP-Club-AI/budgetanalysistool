@@ -1,0 +1,75 @@
+# ===========================================
+# Personal Financial Data - NEVER COMMIT
+# ===========================================
+
+# Transaction data (CSV exports from banks/credit cards)
+data/
+
+# Generated reports containing personal spending info
+reports/
+
+# Budget plans with personal financial details
+budgets/
+
+# Work in progress / temporary analysis files
+wip/
+
+# SQLite databases (may contain financial data or conversation history)
+*.sqlite
+*.db
+
+# ===========================================
+# Python
+# ===========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# ===========================================
+# IDE / Editor
+# ===========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===========================================
+# Jupyter Notebooks
+# ===========================================
+.ipynb_checkpoints/
+*.ipynb_meta/
+
+# ===========================================
+# Misc
+# ===========================================
+*.log
+*.tmp
+*.temp
+.env
+.env.local

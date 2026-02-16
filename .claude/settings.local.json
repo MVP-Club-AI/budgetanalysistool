@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(data/**)",
+      "Read(scripts/**)",
+      "Write(reports/**)",
+      "Write(budgets/**)",
+      "Bash(python scripts/*.py)"
+    ],
+    "deny": []
+  },
+  "env": {
+    "FINANCE_PROJECT": "true"
+  }
+}
